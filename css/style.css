@@ -410,6 +410,10 @@ img {
     gap: 120px;
 }
 
+.footer-block-logo {
+    margin-right: 120px;
+}
+
 .footer-logo {
     font-family: 'Raleway', sans-serif;
     color: #4D5AE5;
@@ -435,13 +439,14 @@ img {
 }
 
 .footer-block-icon {
-    margin-right: 120px;
 }
 
-.footer-icon-link {
+.footer-icon-item {
+    display: flex;
      gap:16px;
    
 }
+
 
 .footer-text-icon {
     color: #FFF;
@@ -449,8 +454,14 @@ img {
     margin-bottom: 16px;
 }
 
-.footer-icon-link:hover {
+.footer-icon-link:hover,
+.footer-icon-link:focus,
+.footer-icon-link:active
+ {
     background-color: #31D0AA;
 }
 
+.footer-icon {
+    fill: #f4f4fd;
+}
 /* ========================== */
