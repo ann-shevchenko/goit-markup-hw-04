@@ -361,10 +361,7 @@ img {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:hover .portfolio-cover-text {
-    transform: translateY(0%);
 
-}
 
 .cover-container {
     position: relative;
@@ -396,12 +393,15 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     transform: translateY(100%);
-    transition: transform 400ms;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     /* transition: transform 400ms box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     */
 }
 
+.portfolio-item:hover .portfolio-cover-text {
+   transform: translateY(0%);
 
+}
 .portfolio-cart-btm {
     border: 1px solid #E7E9FC;
     padding: 32px 16px;
