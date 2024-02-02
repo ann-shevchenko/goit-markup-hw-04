@@ -441,7 +441,7 @@ img {
 .footer-block-icon {
 }
 
-.footer-icon-item {
+.footer-icon-list {
     display: flex;
      gap:16px;
    
@@ -455,9 +455,7 @@ img {
 }
 
 .footer-icon-link:hover,
-.footer-icon-link:focus,
-.footer-icon-link:active
- {
+.footer-icon-link:focus {
     background-color: #31D0AA;
 }
 
