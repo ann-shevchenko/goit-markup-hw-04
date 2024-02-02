@@ -454,11 +454,12 @@ img {
     margin-bottom: 16px;
 }
 
-.footer-icon-link:hover,
-.footer-icon-link:focus {
+.footer-icon-link:hover {
     background-color: #31D0AA;
 }
-
+.footer-icon-link:focus {
+     background-color: #31D0AA;
+}
 .footer-icon {
     fill: #f4f4fd;
 }
